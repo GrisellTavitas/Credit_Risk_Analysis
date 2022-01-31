@@ -54,3 +54,9 @@ Balanced accuracy score = 93%.
 High_risk precision = 9% with sensitivity = 97% and F1 = 16% .
 Low_risk precision = 100% rounded, with sensitivity = 94% and F1 = 97%
 
+## Summary. 
+
+After the evaluation of the results on the last modules, we can recomend to use for these predictions, the Easy Ensemble AdaBoost Classifier; since all the previous ones had poor results on high risk predictions, such as precision, sensitivity and F1; meaning that we could encounter a considerable amount of False postivive cases, but False Negative cases as well; since the accuracy kept on 66% and under, during the three first models and on 77% of accurancy for the Balance random forest classifier. But at the end we found an accuracy of 93% in the Easy Ensemble model and even when the precision still appears in a poorly 9% related with the high risk predictions, in this type of cases, where we should identify candidates for loans, and classified them into low risk and high risk candidates, it would be more important the sensitivity than the precision; even when we would may appear many false positives, so these candidates should apply for a loan in a future; but it's better to have an accurate prediction for all the high risk candidates.
+
+
+
